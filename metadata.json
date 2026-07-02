@@ -1,0 +1,6 @@
+{
+  "name": "JARO - Przeprowadzki i Rozbiórki",
+  "description": "Profesjonalne przeprowadzki, opróżnianie mieszkań i rozbiórki w Starachowicach, Skarżysku-Kamiennej, Radomiu i okolicach. Szybko, sprawnie i z legalną utylizacją.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

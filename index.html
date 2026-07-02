@@ -13,6 +13,7 @@
   <meta property="og:type" content="website">
   
   <title>JARO – Przeprowadzki, Opróżnianie i Rozbiórki | Starachowice, Skarżysko, Radom</title>
+  <link rel="icon" type="image/jpeg" href="https://i.ibb.co/cXbGDVzm/710745894-122114772188777474-8486050230851000450-n.jpg">
   
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -214,6 +215,66 @@
       color: var(--accent-orange);
       border-color: var(--accent-orange);
       background-color: rgba(255, 119, 0, 0.05);
+    }
+
+    /* Mobile Responsive Header Fixes */
+    @media (max-width: 576px) {
+      .container {
+        padding: 0 16px;
+      }
+      .nav-container {
+        height: 70px;
+        gap: 8px;
+      }
+      .logo {
+        font-size: 1.4rem;
+        gap: 8px;
+      }
+      .logo-box {
+        padding: 4px 8px;
+      }
+      .nav-contact {
+        gap: 8px;
+      }
+      .nav-tel {
+        font-size: 0.95rem;
+        padding: 6px 10px;
+        gap: 4px;
+      }
+      .nav-tel svg {
+        width: 14px;
+        height: 14px;
+      }
+      .nav-fb {
+        width: 36px;
+        height: 36px;
+      }
+    }
+
+    @media (max-width: 380px) {
+      .container {
+        padding: 0 12px;
+      }
+      .nav-container {
+        gap: 6px;
+      }
+      .logo {
+        font-size: 1.25rem;
+      }
+      .logo-box {
+        padding: 3px 6px;
+      }
+      .nav-tel {
+        font-size: 0.85rem;
+        padding: 5px 8px;
+      }
+      .nav-tel svg {
+        display: none !important;
+      }
+      .nav-fb {
+        width: 32px;
+        height: 32px;
+      }
     }
 
     /* Buttons */
